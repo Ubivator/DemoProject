@@ -1,5 +1,11 @@
 package com.Demo.qa.test;
 
-public class LoginTest {
+import org.testng.annotations.Test;
 
+public class LoginTest {
+       
+	@Test
+	public void Test1(){
+		System.out.println("test1");
+	}
 }
